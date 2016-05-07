@@ -1,0 +1,31 @@
+{
+  "name": "tweet-sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "A Backend API called from a google chrome extension which will send this API a tweet which then determines the sentiment of the tweet.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "tweets",
+    "tweet",
+    "sentiment",
+    "nlp",
+    "sentiment",
+    "analysis",
+    "naive",
+    "bayes"
+  ],
+  "author": "Karthik Gudipati",
+  "license": "ISC",
+  "dependencies": {
+    "bayes": "0.0.4",
+    "body-parser": "^1.15.0",
+    "classifier": "^0.1.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "natural": "^0.4.0",
+    "svm": "^0.1.1"
+  }
+}
